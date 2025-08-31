@@ -53,8 +53,6 @@ const BespokeServicesComponent = ({
   return (
     <div className="min-h-screen bg-white py-16 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
-
-        {/* First Row (3 items) */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {activeSections.slice(0, 3).map((section) => (
             <div key={section.id}>
@@ -108,7 +106,6 @@ const BespokeServicesComponent = ({
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 justify-center max-w-3xl mx-auto mt-10">
           {activeSections.slice(3, 5).map((section) => (
             <div key={section.id}>
-              {/* Image */}
               <div className="relative overflow-hidden rounded-lg mb-6 h-64 md:h-72 lg:h-80">
                 <img 
                   src={section.image}

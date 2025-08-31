@@ -25,14 +25,13 @@ export default function MenswearService() {
       </div>
 
       <div className="max-w-4xl py-12 mx-auto">
-  
-        <div className="grid grid-cols-2 gap-4 mb-12 max-sm:h-[200px] md:h-[200px] min-h-[600px]">
+        <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 mb-12">
           {images.map((img) => (
             <div key={img.id} className="relative">
               <img
                 src={img.src}
                 alt={img.alt}
-                className="w-full h-full object-cover  shadow-lg"
+                className="w-full h-96 sm:h-[500px] md:h-[600px] lg:h-[700px] object-cover shadow-lg "
               />
             </div>
           ))}

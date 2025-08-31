@@ -8,7 +8,7 @@ const BespokeIntroComponent = () => {
         
        
         <div className="text-center mb-12">
-          <h1 className="text-xl md:text-6xl lg:text-7xl font-light tracking-[0.15em] text-gray-900 mb-8 leading-tight">
+          <h1 className="text-xl md:text-4xl lg:text-5xl font-light tracking-[0.15em] text-gray-900 mb-8 leading-tight">
 
             THE WORLD OF  BESPOKE
           
